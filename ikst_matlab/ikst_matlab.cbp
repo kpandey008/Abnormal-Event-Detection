@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ikst_matlab" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/ikst_matlab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/ikst_matlab" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-s" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Environment>
+				<Variable name="CV_VERSION" value="247" />
+			</Environment>
+		</Build>
+		<Compiler>
+			<Add directory="C:/opencv/build/include" />
+		</Compiler>
+		<Linker>
+			<Add library="opencv_imgproc$(CV_VERSION).dll" />
+			<Add library="opencv_core$(CV_VERSION).dll" />
+			<Add library="opencv_highgui$(CV_VERSION).dll" />
+			<Add directory="C:/opencv_built/lib" />
+			<Add directory="C:/opencv_built/bin" />
+		</Linker>
+		<Unit filename="include/VideoTrainer.h" />
+		<Unit filename="include/featureExtractor.h" />
+		<Unit filename="include/testFeaExtractor.h" />
+		<Unit filename="include/testSystem.h" />
+		<Unit filename="include/trainSystem.h" />
+		<Unit filename="lena.jpg" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/VideoTrainer.cpp" />
+		<Unit filename="src/featureExtractor.cpp" />
+		<Unit filename="src/testFeaExtractor.cpp" />
+		<Unit filename="src/testSystem.cpp" />
+		<Unit filename="src/trainSystem.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

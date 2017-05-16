@@ -1,0 +1,344 @@
+# depslib dependency file v1.0
+1459333386 source:d:\ikst\ikst_matlab\main.cpp
+	"VideoTrainer.h"
+	"testSystem.h"
+	<iostream>
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1379506016 c:\opencv\build\include\opencv2\core\core.hpp
+	"opencv2/core/types_c.h"
+	"opencv2/core/version.hpp"
+	<limits.h>
+	<algorithm>
+	<cmath>
+	<cstddef>
+	<complex>
+	<map>
+	<new>
+	<string>
+	<vector>
+	<sstream>
+	"opencv2/core/operations.hpp"
+	"opencv2/core/mat.hpp"
+
+1381547657 c:\opencv\build\include\opencv2\core\types_c.h
+	<assert.h>
+	<stdlib.h>
+	<string.h>
+	<float.h>
+	<stdint.h>
+	<intrin.h>
+	<emmintrin.h>
+	<fastmath.h>
+	<math.h>
+	<ipl.h>
+	<ipl/ipl.h>
+	"tegra_round.hpp"
+	"emmintrin.h"
+
+1383575878 c:\opencv\build\include\opencv2\core\version.hpp
+
+1379459755 c:\opencv\build\include\opencv2\core\operations.hpp
+	<string.h>
+	<limits.h>
+	<ext/atomicity.h>
+	<bits/atomicity.h>
+	<limits>
+
+1379027715 c:\opencv\build\include\opencv2\core\mat.hpp
+	<limits.h>
+	<string.h>
+
+1383794150 c:\opencv\build\include\opencv2\imgproc\imgproc.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/imgproc/types_c.h"
+
+1377301329 c:\opencv\build\include\opencv2\imgproc\types_c.h
+	"opencv2/core/core_c.h"
+
+1379027715 c:\opencv\build\include\opencv2\core\core_c.h
+	"opencv2/core/types_c.h"
+
+1376498857 c:\opencv\build\include\opencv2\highgui\highgui.hpp
+	"opencv2/core/core.hpp"
+	"opencv2/highgui/highgui_c.h"
+
+1376498857 c:\opencv\build\include\opencv2\highgui\highgui_c.h
+	"opencv2/core/core_c.h"
+
+1458677639 source:d:\ikst\ikst_matlab\src\featureextractor.cpp
+	"featureExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458677629 d:\ikst\ikst_matlab\include\featureextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459187537 source:d:\ikst\ikst_matlab\src\trainsystem.cpp
+	"trainSystem.h"
+	"featureExtractor.h"
+	<vector>
+	<iostream>
+	<sstream>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549276 d:\ikst\ikst_matlab\include\trainsystem.h
+	<vector>
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459333374 source:d:\ikst\ikst_matlab\src\videotrainer.cpp
+	"featureExtractor.h"
+	"VideoTrainer.h"
+	"trainSystem.h"
+	<vector>
+	<math.h>
+	<string>
+	<dirent.h>
+	<algorithm>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549289 d:\ikst\ikst_matlab\include\videotrainer.h
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459350209 source:d:\ikst\ikst_matlab\src\testfeaextractor.cpp
+	"testFeaExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459343122 d:\ikst\ikst_matlab\include\testfeaextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459355071 source:d:\ikst\ikst_matlab\src\testsystem.cpp
+	"testSystem.h"
+	"testFeaExtractor.h"
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<dirent.h>
+
+1459355018 d:\ikst\ikst_matlab\include\testsystem.h
+	<vector>
+	<string>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459333386 source:d:\music\ikst_matlab\main.cpp
+	"VideoTrainer.h"
+	"testSystem.h"
+	<iostream>
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549289 d:\music\ikst_matlab\include\videotrainer.h
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459355018 d:\music\ikst_matlab\include\testsystem.h
+	<vector>
+	<string>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458677639 source:d:\music\ikst_matlab\src\featureextractor.cpp
+	"featureExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458677629 d:\music\ikst_matlab\include\featureextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459350209 source:d:\music\ikst_matlab\src\testfeaextractor.cpp
+	"testFeaExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459343122 d:\music\ikst_matlab\include\testfeaextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459357384 source:d:\music\ikst_matlab\src\testsystem.cpp
+	"testSystem.h"
+	"testFeaExtractor.h"
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<dirent.h>
+
+1459187537 source:d:\music\ikst_matlab\src\trainsystem.cpp
+	"trainSystem.h"
+	"featureExtractor.h"
+	<vector>
+	<iostream>
+	<sstream>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549276 d:\music\ikst_matlab\include\trainsystem.h
+	<vector>
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459333374 source:d:\music\ikst_matlab\src\videotrainer.cpp
+	"featureExtractor.h"
+	"VideoTrainer.h"
+	"trainSystem.h"
+	<vector>
+	<math.h>
+	<string>
+	<dirent.h>
+	<algorithm>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459333386 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\main.cpp
+	"VideoTrainer.h"
+	"testSystem.h"
+	<iostream>
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549289 d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\include\videotrainer.h
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459355018 d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\include\testsystem.h
+	<vector>
+	<string>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458677639 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\src\featureextractor.cpp
+	"featureExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458677629 d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\include\featureextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459350209 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\src\testfeaextractor.cpp
+	"testFeaExtractor.h"
+	<vector>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459343122 d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\include\testfeaextractor.h
+	<iostream>
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459357384 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\src\testsystem.cpp
+	"testSystem.h"
+	"testFeaExtractor.h"
+	<vector>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+	<dirent.h>
+
+1459187537 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\src\trainsystem.cpp
+	"trainSystem.h"
+	"featureExtractor.h"
+	<vector>
+	<iostream>
+	<sstream>
+	<math.h>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1458549276 d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\include\trainsystem.h
+	<vector>
+	<iostream>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
+1459333374 source:d:\github_repos\abnormal-event-detection_ikst\ikst_matlab\src\videotrainer.cpp
+	"featureExtractor.h"
+	"VideoTrainer.h"
+	"trainSystem.h"
+	<vector>
+	<math.h>
+	<string>
+	<dirent.h>
+	<algorithm>
+	<opencv2/core/core.hpp>
+	<opencv2/imgproc/imgproc.hpp>
+	<opencv2/highgui/highgui.hpp>
+
